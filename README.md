@@ -19,6 +19,7 @@ All logos are **vector** masters (SVG and PDF), which scale to any size with no 
 | The logo on its own cream or charcoal background | `…-light-with-background` / `…-dark-with-background` |
 | Browser-tab / phone home-screen icons | `favicon/` |
 | Brand colors | `colors/` (JSON, CSS, SCSS, swatch image) |
+| All four logos on one page (to show a printer, designer, or partner) | `logos/sheet/gfi-logo-sheet.pdf` |
 
 **"for-light-bg"** = charcoal wordmark with gold edge, transparent background; place it on white or cream.
 **"for-dark-bg"** = cream wordmark, transparent background; place it on black or charcoal.
@@ -32,11 +33,12 @@ ground-floor-industries-brand/
 ├── logos/
 │   ├── svg/           # Vector masters (web + design tools)
 │   ├── pdf/           # Vector masters (print shops, Illustrator)
+│   ├── sheet/         # All four logos on one page (SVG, PDF, PNG)
 │   └── png/           # 2000px exports (icons 1024px), transparent unless "with-background"
 │       └── small/     # 64–1024px web-ready sizes
 ├── favicon/           # favicon.ico, favicon.svg, 16–512px PNGs, apple-touch-icon (from the simple icon)
-├── colors/            # palette.json, palette.css, _palette.scss, swatches
-├── source/            # Original AI-generated logo sheet + raster crops (reference only)
+├── colors/            # palette.json, palette.css, _palette.scss, swatches (SVG + PNG)
+├── source/            # Original AI-generated logo sheet (historical reference only)
 └── index.html         # Visual preview of everything (open in a browser)
 ```
 

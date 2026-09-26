@@ -9,7 +9,7 @@
     <polygon points="197.65,115.00 197.65,145.60 222.10,145.60 222.10,124.78" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
     <polygon points="32.00,102.18 32.00,148.25 112.25,148.25 112.25,70.08" fill="#76865E" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
     <polygon points="33.75,103.37 33.75,146.50 66.50,146.50 66.50,90.27" fill="#D0AC48"/>
-    <line x1="68.25" y1="85.80" x2="68.25" y2="150.00" stroke="#C9A24C" stroke-width="3.5"/>
+    <polygon points="66.50,86.50 66.50,150.00 70.00,150.00 70.00,85.10" fill="#C9A24C"/>
     <polygon points="34.65,103.98 34.65,145.60 65.60,145.60 65.60,91.60" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
     <polygon points="109.60,145.60 109.60,74.00 70.90,89.48 70.90,145.60" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
     <rect x="0.90" y="155.15" width="255.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>

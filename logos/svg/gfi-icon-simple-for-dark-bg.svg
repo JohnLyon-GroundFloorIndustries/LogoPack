@@ -6,7 +6,7 @@
     <polygon points="195.00,111.08 195.00,148.25 224.75,148.25 224.75,122.98" fill="#B3854A" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
     <polygon points="32.00,102.18 32.00,148.25 112.25,148.25 112.25,70.08" fill="#76865E" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
     <polygon points="33.75,103.37 33.75,146.50 66.50,146.50 66.50,90.27" fill="#D0AC48"/>
-    <line x1="68.25" y1="85.80" x2="68.25" y2="150.00" stroke="#E2C27A" stroke-width="3.5"/>
+    <polygon points="66.50,86.50 66.50,150.00 70.00,150.00 70.00,85.10" fill="#E2C27A"/>
     <rect x="0" y="154.25" width="257" height="9.0" fill="#E2C27A"/>
     <rect x="29" y="167.5" width="199" height="9.0" fill="#E2C27A"/>
     <rect x="63" y="180.75" width="130" height="9.0" fill="#E2C27A"/>

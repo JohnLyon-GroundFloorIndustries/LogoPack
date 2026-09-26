@@ -1,15 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.8 287.8" width="288" height="288" role="img" aria-label="Ground Floor Industries">
   <title>Ground Floor Industries — icon</title>
-  <g transform="translate(15.42,47.42)">
-    <polygon points="86.25,30.32 86.25,70.09 120.00,59.32 120.00,148.25 139.75,148.25 139.75,2.86" fill="#709D9A" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/><polygon points="88.90,31.94 88.90,66.46 122.65,55.69 122.65,145.60 137.10,145.60 137.10,7.20" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="147.50,38.10 147.50,148.25 187.25,148.25 187.25,54.18" fill="#3F737B" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/><polygon points="150.15,42.03 150.15,145.60 184.60,145.60 184.60,55.97" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="195.00,111.08 195.00,148.25 224.75,148.25 224.75,122.94" fill="#B3854A" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/><polygon points="197.65,114.99 197.65,145.60 222.10,145.60 222.10,124.73" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="32.00,95.53 32.00,148.25 112.25,148.25 112.25,69.93" fill="#76865E" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
-    <polygon points="33.75,146.50 68.25,146.50 68.25,85.80 33.75,96.81" fill="#D0AC48"/>
-    <polygon points="34.65,97.46 34.65,145.60 109.60,145.60 109.60,73.56" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <line x1="68.25" y1="85.63" x2="68.25" y2="146.50" stroke="#F7EBCB" stroke-width="1.6"/>
-    <rect x="0.90" y="154.90" width="255.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
-    <rect x="29.90" y="169.90" width="197.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
-    <rect x="63.90" y="184.90" width="128.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
+  <g transform="translate(15.42,49.05)">
+    <polygon points="86.25,23.98 86.25,72.14 120.00,58.64 120.00,148.25 139.75,148.25 139.75,2.58" fill="#709D9A" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="88.90,25.78 88.90,68.22 122.65,54.72 122.65,145.60 137.10,145.60 137.10,6.50" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="147.50,38.08 147.50,148.25 187.25,148.25 187.25,53.98" fill="#3F737B" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="150.15,42.00 150.15,145.60 184.60,145.60 184.60,55.78" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="195.00,111.08 195.00,148.25 224.75,148.25 224.75,122.98" fill="#B3854A" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="197.65,115.00 197.65,145.60 222.10,145.60 222.10,124.78" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="32.00,102.18 32.00,148.25 112.25,148.25 112.25,70.08" fill="#76865E" stroke="#C9A24C" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="33.75,103.37 33.75,146.50 66.50,146.50 66.50,90.27" fill="#D0AC48"/>
+    <line x1="68.25" y1="85.80" x2="68.25" y2="150.00" stroke="#C9A24C" stroke-width="3.5"/>
+    <polygon points="34.65,103.98 34.65,145.60 65.60,145.60 65.60,91.60" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="109.60,145.60 109.60,74.00 70.90,89.48 70.90,145.60" fill="none" stroke="#F7EBCB" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <rect x="0.90" y="155.15" width="255.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
+    <rect x="29.90" y="168.40" width="197.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
+    <rect x="63.90" y="181.65" width="128.20" height="7.20" fill="#F1DEA6" stroke="#C9A24C" stroke-width="1.8"/>
   </g>
 </svg>

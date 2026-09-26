@@ -15,6 +15,7 @@ All logos are **vector** masters (SVG and PDF), which scale to any size with no 
 | A horizontal logo for a header or letterhead | `gfi-horizontal-for-light-bg` / `…-for-dark-bg` |
 | A centered logo (cover page, sign, banner) | `gfi-stacked-for-light-bg` / `…-for-dark-bg` |
 | Just the building mark (profile picture, app icon, stamp) | `gfi-icon-for-light-bg` / `…-for-dark-bg` |
+| The building mark under ~64px, embroidery, stamps, one-color jobs | `gfi-icon-simple-for-light-bg` / `…-for-dark-bg` (no hairline highlights) |
 | The logo on its own cream or charcoal background | `…-light-with-background` / `…-dark-with-background` |
 | Browser-tab / phone home-screen icons | `favicon/` |
 | Brand colors | `colors/` (JSON, CSS, SCSS, swatch image) |
@@ -33,11 +34,18 @@ ground-floor-industries-brand/
 │   ├── pdf/           # Vector masters (print shops, Illustrator)
 │   └── png/           # 2000px exports (icons 1024px), transparent unless "with-background"
 │       └── small/     # 64–1024px web-ready sizes
-├── favicon/           # favicon.ico, favicon.svg, 16–512px PNGs, apple-touch-icon
+├── favicon/           # favicon.ico, favicon.svg, 16–512px PNGs, apple-touch-icon (from the simple icon)
 ├── colors/            # palette.json, palette.css, _palette.scss, swatches
 ├── source/            # Original AI-generated logo sheet + raster crops (reference only)
 └── index.html         # Visual preview of everything (open in a browser)
 ```
+
+## Design rules built into the mark
+
+- **One roof pitch:** every roof uses the same ~22° angle, rising on the left buildings and falling on the right.
+- **One gap:** the space between buildings, between the buildings and the foundation, and between the foundation bars is the same width.
+- **One frame:** every panel, including the divider in the low building, has the same gold frame weight.
+- **Horizontal lock-up:** "GROUND FLOOR" sits on the building baseline and "INDUSTRIES" sits on the bottom foundation bar.
 
 ## Typography
 

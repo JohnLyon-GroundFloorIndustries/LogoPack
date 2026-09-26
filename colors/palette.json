@@ -1,6 +1,6 @@
 {
   "name": "Ground Floor Industries",
-  "note": "Colors sampled from the master logo artwork. Treat as close approximations until confirmed against a vector source.",
+  "note": "Official colors used in the vector logo masters (logos/svg, logos/pdf).",
   "colors": {
     "gold":        { "hex": "#D0AC48", "use": "Left panel, outline strokes, foundation lines" },
     "olive":       { "hex": "#76865E", "use": "Second panel" },

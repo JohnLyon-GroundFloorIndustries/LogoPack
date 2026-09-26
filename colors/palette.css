@@ -1,0 +1,12 @@
+:root {
+  --gfi-gold: #D0AC48;  /* Left panel, outline strokes, foundation lines */
+  --gfi-olive: #76865E;  /* Second panel */
+  --gfi-teal-light: #709D9A;  /* Tall tower (front face) */
+  --gfi-teal-deep: #3F737B;  /* Tall tower (side face) */
+  --gfi-bronze: #B3854A;  /* Small annex block */
+  --gfi-charcoal: #3F3F3B;  /* Wordmark on light backgrounds */
+  --gfi-cream: #EDD3A4;  /* Wordmark on dark backgrounds */
+  --gfi-teal-text: #6A9B98;  /* INDUSTRIES tagline */
+  --gfi-bg-light: #F8F4ED;  /* Light background */
+  --gfi-bg-dark: #1D1D1D;  /* Dark background */
+}

@@ -29,7 +29,7 @@ If a print shop asks for **EPS or AI**, send the PDF. Illustrator, CorelDRAW, an
 ## Folder layout
 
 ```
-ground-floor-industries-brand/
+LogoPack/
 ├── logos/
 │   ├── svg/           # Vector masters (web + design tools)
 │   ├── pdf/           # Vector masters (print shops, Illustrator)
@@ -80,21 +80,21 @@ The lettering has been converted to outlines, so the logo files don't need any f
 **Direct link (for websites, READMEs, emails)**: once pushed, any file is available at:
 
 ```
-https://raw.githubusercontent.com/<your-username>/ground-floor-industries-brand/main/logos/svg/gfi-horizontal-for-light-bg.svg
+https://raw.githubusercontent.com/JohnLyon-GroundFloorIndustries/LogoPack/main/logos/svg/gfi-horizontal-for-light-bg.svg
 ```
 
 **As a git submodule (inside another repo):**
 
 ```bash
-git submodule add https://github.com/<your-username>/ground-floor-industries-brand.git brand
+git submodule add https://github.com/JohnLyon-GroundFloorIndustries/LogoPack.git brand
 ```
 
-**Download everything:** GitHub → *Code* → *Download ZIP*.
+**Download everything:** [github.com/JohnLyon-GroundFloorIndustries/LogoPack](https://github.com/JohnLyon-GroundFloorIndustries/LogoPack) → *Code* → *Download ZIP*.
 
 **CSS colors in a web project:**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<your-username>/ground-floor-industries-brand@main/colors/palette.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JohnLyon-GroundFloorIndustries/LogoPack@main/colors/palette.css">
 ```
 
 (jsDelivr only serves public repos; for a private repo, copy `palette.css` in.)

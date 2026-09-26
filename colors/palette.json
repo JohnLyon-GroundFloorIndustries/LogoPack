@@ -1,16 +1,16 @@
 {
   "name": "Ground Floor Industries",
-  "note": "Official colors used in the vector logo masters (logos/svg, logos/pdf).",
+  "note": "Official brand palette. The six core colors are the brand colors; the tints are derived from them for the logo and for contrast on dark backgrounds.",
   "colors": {
-    "gold":        { "hex": "#D0AC48", "use": "Left panel, outline strokes, foundation lines" },
-    "olive":       { "hex": "#76865E", "use": "Second panel" },
-    "teal-light":  { "hex": "#709D9A", "use": "Tall tower (front face)" },
-    "teal-deep":   { "hex": "#3F737B", "use": "Tall tower (side face)" },
-    "bronze":      { "hex": "#B3854A", "use": "Small annex block" },
-    "charcoal":    { "hex": "#3F3F3B", "use": "Wordmark on light backgrounds" },
-    "cream":       { "hex": "#EDD3A4", "use": "Wordmark on dark backgrounds" },
-    "teal-text":   { "hex": "#6A9B98", "use": "INDUSTRIES tagline" },
-    "bg-light":    { "hex": "#F8F4ED", "use": "Light background" },
-    "bg-dark":     { "hex": "#1D1D1D", "use": "Dark background" }
+    "deep-teal":      { "hex": "#1F5C5B", "use": "Right tower; INDUSTRIES tagline on light backgrounds; primary accent" },
+    "evergreen":      { "hex": "#355E4B", "use": "Second panel of the low building" },
+    "mustard-gold":   { "hex": "#C89B3C", "use": "Left panel; gold edge on the light wordmark" },
+    "burnt-orange":   { "hex": "#B8652A", "use": "Small annex block; accent" },
+    "charcoal":       { "hex": "#2B2B2B", "use": "Wordmark on light backgrounds; dark background" },
+    "cream":          { "hex": "#F4F1E8", "use": "Wordmark on dark backgrounds; light background" },
+    "teal-tint":      { "hex": "#54817E", "use": "Tall tower (deep teal, 25% lighter)" },
+    "teal-on-dark":   { "hex": "#7F9F9A", "use": "INDUSTRIES tagline on dark backgrounds (readable contrast)" },
+    "gold-light":     { "hex": "#D5B570", "use": "Frames and foundation bars on dark backgrounds" },
+    "gold-dark":      { "hex": "#B08A39", "use": "Frames on light backgrounds" }
   }
 }

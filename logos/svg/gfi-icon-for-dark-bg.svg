@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.8 287.8" width="288" height="288" role="img" aria-label="Ground Floor Industries">
   <title>Ground Floor Industries — icon</title>
   <g transform="translate(15.42,49.05)">
-    <polygon points="86.25,23.98 86.25,72.14 120.00,58.64 120.00,148.25 139.75,148.25 139.75,2.58" fill="#709D9A" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
-    <polygon points="88.90,25.78 88.90,68.22 122.65,54.72 122.65,145.60 137.10,145.60 137.10,6.50" fill="none" stroke="#F4E3BC" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="147.50,38.08 147.50,148.25 187.25,148.25 187.25,53.98" fill="#3F737B" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
-    <polygon points="150.15,42.00 150.15,145.60 184.60,145.60 184.60,55.78" fill="none" stroke="#F4E3BC" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="195.00,111.08 195.00,148.25 224.75,148.25 224.75,122.98" fill="#B3854A" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
-    <polygon points="197.65,115.00 197.65,145.60 222.10,145.60 222.10,124.78" fill="none" stroke="#F4E3BC" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="32.00,102.18 32.00,148.25 112.25,148.25 112.25,70.08" fill="#76865E" stroke="#E2C27A" stroke-width="3.5" stroke-linejoin="miter"/>
-    <polygon points="33.75,103.37 33.75,146.50 66.50,146.50 66.50,90.27" fill="#D0AC48"/>
-    <polygon points="66.50,86.50 66.50,150.00 70.00,150.00 70.00,85.10" fill="#E2C27A"/>
-    <polygon points="34.65,103.98 34.65,145.60 65.60,145.60 65.60,91.60" fill="none" stroke="#F4E3BC" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <polygon points="109.60,145.60 109.60,74.00 70.90,89.48 70.90,145.60" fill="none" stroke="#F4E3BC" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
-    <rect x="0" y="154.25" width="257" height="9.0" fill="#E2C27A"/>
-    <rect x="29" y="167.5" width="199" height="9.0" fill="#E2C27A"/>
-    <rect x="63" y="180.75" width="130" height="9.0" fill="#E2C27A"/>
+    <polygon points="86.25,23.98 86.25,72.14 120.00,58.64 120.00,148.25 139.75,148.25 139.75,2.58" fill="#54817E" stroke="#D5B570" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="88.90,25.78 88.90,68.22 122.65,54.72 122.65,145.60 137.10,145.60 137.10,6.50" fill="none" stroke="#F4F1E8" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="147.50,38.08 147.50,148.25 187.25,148.25 187.25,53.98" fill="#1F5C5B" stroke="#D5B570" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="150.15,42.00 150.15,145.60 184.60,145.60 184.60,55.78" fill="none" stroke="#F4F1E8" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="195.00,111.08 195.00,148.25 224.75,148.25 224.75,122.98" fill="#B8652A" stroke="#D5B570" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="197.65,115.00 197.65,145.60 222.10,145.60 222.10,124.78" fill="none" stroke="#F4F1E8" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="32.00,102.18 32.00,148.25 112.25,148.25 112.25,70.08" fill="#355E4B" stroke="#D5B570" stroke-width="3.5" stroke-linejoin="miter"/>
+    <polygon points="33.75,103.37 33.75,146.50 66.50,146.50 66.50,90.27" fill="#C89B3C"/>
+    <polygon points="66.50,86.50 66.50,150.00 70.00,150.00 70.00,85.10" fill="#D5B570"/>
+    <polygon points="34.65,103.98 34.65,145.60 65.60,145.60 65.60,91.60" fill="none" stroke="#F4F1E8" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <polygon points="109.60,145.60 109.60,74.00 70.90,89.48 70.90,145.60" fill="none" stroke="#F4F1E8" stroke-width="0.8" stroke-opacity="0.8" stroke-linejoin="miter"/>
+    <rect x="0" y="154.25" width="257" height="9.0" fill="#D5B570"/>
+    <rect x="29" y="167.5" width="199" height="9.0" fill="#D5B570"/>
+    <rect x="63" y="180.75" width="130" height="9.0" fill="#D5B570"/>
   </g>
 </svg>

@@ -1,12 +1,12 @@
 :root {
-  --gfi-gold: #D0AC48;  /* Left panel, outline strokes, foundation lines */
-  --gfi-olive: #76865E;  /* Second panel */
-  --gfi-teal-light: #709D9A;  /* Tall tower (front face) */
-  --gfi-teal-deep: #3F737B;  /* Tall tower (side face) */
-  --gfi-bronze: #B3854A;  /* Small annex block */
-  --gfi-charcoal: #3F3F3B;  /* Wordmark on light backgrounds */
-  --gfi-cream: #EDD3A4;  /* Wordmark on dark backgrounds */
-  --gfi-teal-text: #6A9B98;  /* INDUSTRIES tagline */
-  --gfi-bg-light: #F8F4ED;  /* Light background */
-  --gfi-bg-dark: #1D1D1D;  /* Dark background */
+  --gfi-deep-teal: #1F5C5B;  /* Right tower; INDUSTRIES tagline on light backgrounds; primary accent */
+  --gfi-evergreen: #355E4B;  /* Second panel of the low building */
+  --gfi-mustard-gold: #C89B3C;  /* Left panel; gold edge on the light wordmark */
+  --gfi-burnt-orange: #B8652A;  /* Small annex block; accent */
+  --gfi-charcoal: #2B2B2B;  /* Wordmark on light backgrounds; dark background */
+  --gfi-cream: #F4F1E8;  /* Wordmark on dark backgrounds; light background */
+  --gfi-teal-tint: #54817E;  /* Tall tower (deep teal, 25% lighter) */
+  --gfi-teal-on-dark: #7F9F9A;  /* INDUSTRIES tagline on dark backgrounds (readable contrast) */
+  --gfi-gold-light: #D5B570;  /* Frames and foundation bars on dark backgrounds */
+  --gfi-gold-dark: #B08A39;  /* Frames on light backgrounds */
 }

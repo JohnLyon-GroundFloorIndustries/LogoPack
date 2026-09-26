@@ -21,7 +21,7 @@ All logos are **vector** masters (SVG and PDF), which scale to any size with no 
 | Brand colors | `colors/` (JSON, CSS, SCSS, swatch image) |
 | All four logos on one page (to show a printer, designer, or partner) | `logos/sheet/gfi-logo-sheet.pdf` |
 
-**"for-light-bg"** = charcoal wordmark with gold edge, transparent background; place it on white or cream.
+**"for-light-bg"** = charcoal wordmark with mustard-gold edge, transparent background; place it on white or cream.
 **"for-dark-bg"** = cream wordmark, transparent background; place it on black or charcoal.
 
 If a print shop asks for **EPS or AI**, send the PDF. Illustrator, CorelDRAW, and most sign-cutting software open it as editable vector artwork.
@@ -64,16 +64,18 @@ The lettering has been converted to outlines, so the logo files don't need any f
 
 | Name | Hex | Where it appears |
 |---|---|---|
-| Gold | `#D0AC48` | Left panel, outlines, foundation lines |
-| Olive | `#76865E` | Second panel |
-| Teal light | `#709D9A` | Tall tower |
-| Teal deep | `#3F737B` | Right tower |
-| Bronze | `#B3854A` | Small annex block |
-| Charcoal | `#3F3F3B` | Wordmark on light backgrounds |
-| Cream | `#EDD3A4` | Wordmark on dark backgrounds |
-| Teal text | `#6A9B98` | "INDUSTRIES" tagline |
-| Background light | `#F8F4ED` | Light background |
-| Background dark | `#1D1D1D` | Dark background |
+| Deep teal | `#1F5C5B` | Right tower; INDUSTRIES tagline on light backgrounds; primary accent |
+| Evergreen | `#355E4B` | Second panel of the low building |
+| Mustard gold | `#C89B3C` | Left panel; gold edge on the light wordmark |
+| Burnt orange | `#B8652A` | Small annex block; accent |
+| Charcoal | `#2B2B2B` | Wordmark on light backgrounds; dark background |
+| Cream | `#F4F1E8` | Wordmark on dark backgrounds; light background |
+| Teal tint * | `#54817E` | Tall tower (deep teal, 25% lighter) |
+| Teal on dark * | `#7F9F9A` | INDUSTRIES tagline on dark backgrounds (readable contrast) |
+| Gold light * | `#D5B570` | Frames and foundation bars on dark backgrounds |
+| Gold dark * | `#B08A39` | Frames on light backgrounds |
+
+\* Tints derived from the six core brand colors, used inside the logo and for readable contrast on dark backgrounds.
 
 ## Pulling the logos into other projects
 

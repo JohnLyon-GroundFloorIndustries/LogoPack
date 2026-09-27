@@ -1,0 +1,39 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { Logo } from '../index';
+
+<Meta title="Introduction" />
+
+<Logo height={72} />
+
+# Ground Floor Industries — LogoPack
+
+React components and brand tokens for the Ground Floor Industries logo. Every component is generated
+from the vector masters in `logos/svg`, so the React logos, SVGs, PDFs, and PNGs always match.
+
+## Install
+
+```bash
+npm install github:JohnLyon-GroundFloorIndustries/LogoPack
+```
+
+## Use
+
+```tsx
+import { Logo, LogoIcon, colors, fonts } from '@groundfloorindustries/logopack';
+import '@groundfloorindustries/logopack/palette.css'; // optional: --gfi-* CSS variables
+
+<Logo height={48} />                                     // site header
+<Logo layout="stacked" background="dark" width={320} />  // hero on a dark section
+<LogoIcon width={32} simple />                           // small icon
+```
+
+**Components**
+
+- **`Logo`**: `layout` (`horizontal` / `stacked`), `background` (`light` / `dark`), `withBackground`, `width` / `height`, `title`
+- **`LogoIcon`**: `background` (`light` / `dark`), `simple`, `width` / `height`, `title`
+- **12 named components**, e.g. `LogoHorizontalOnLight`, `LogoIconSimpleOnDark`. See *Brand / All logos*.
+
+**Tokens**: `colors`, `colorTokens`, `cssVariables`, `fonts`, `googleFontsHref`
+
+Pass only `height` or only `width` and the other follows the artwork's proportions. Pass `title=""` when
+the logo is decorative (next to visible company-name text) so screen readers skip it.

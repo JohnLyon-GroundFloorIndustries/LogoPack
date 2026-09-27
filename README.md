@@ -19,6 +19,7 @@ All logos are **vector** masters (SVG and PDF), which scale to any size with no 
 | The logo on its own cream or charcoal background | `…-light-with-background` / `…-dark-with-background` |
 | Browser-tab / phone home-screen icons | `favicon/` |
 | Brand colors | `colors/` (JSON, CSS, SCSS, swatch image) |
+| The logo in a React / Next.js site | The npm package — see [React component library](#react-component-library) |
 | All four logos on one page (to show a printer, designer, or partner) | `logos/sheet/gfi-logo-sheet.pdf` |
 
 **"for-light-bg"** = charcoal wordmark with mustard-gold edge, transparent background; place it on white or cream.
@@ -39,6 +40,12 @@ LogoPack/
 ├── favicon/           # favicon.ico, favicon.svg, 16–512px PNGs, apple-touch-icon (from the simple icon)
 ├── colors/            # palette.json, palette.css, _palette.scss, swatches (SVG + PNG)
 ├── source/            # Original AI-generated logo sheet (historical reference only)
+├── src/               # React component library (TypeScript)
+│   ├── generated/     # Logo components + color tokens, generated from logos/svg and colors/palette.json
+│   └── stories/       # Storybook stories
+├── scripts/generate.mjs  # Regenerates src/generated from the vector masters
+├── .storybook/        # Storybook configuration
+├── package.json       # npm package: @groundfloorindustries/logopack
 └── index.html         # Visual preview of everything (open in a browser)
 ```
 
@@ -76,6 +83,55 @@ The lettering has been converted to outlines, so the logo files don't need any f
 | Gold dark * | `#B08A39` | Frames on light backgrounds |
 
 \* Tints derived from the six core brand colors, used inside the logo and for readable contrast on dark backgrounds.
+
+## React component library
+
+The repo is also an npm package with React components for every logo, plus the brand colors and fonts as tokens. The components are generated from `logos/svg`, so they always match the SVG, PDF, and PNG files.
+
+**Install in another project** (React 18 or 19):
+
+```bash
+npm install github:JohnLyon-GroundFloorIndustries/LogoPack
+```
+
+**Use:**
+
+```tsx
+import { Logo, LogoIcon, colors, fonts } from '@groundfloorindustries/logopack';
+import '@groundfloorindustries/logopack/palette.css'; // optional: --gfi-* CSS variables
+
+<Logo height={48} />                                     // site header
+<Logo layout="stacked" background="dark" width={320} />  // hero on a dark section
+<Logo withBackground background="dark" height={64} />    // on a photo or off-brand color
+<LogoIcon width={32} simple />                           // small icon
+
+<h2 style={{ fontFamily: fonts.wordmark.family, color: colors.deepTeal }}>Our Portfolio</h2>
+```
+
+| Export | What it is |
+|---|---|
+| `Logo` | `layout` (`horizontal` \| `stacked`), `background` (`light` \| `dark`), `withBackground`, `width`/`height`, `title` |
+| `LogoIcon` | `background` (`light` \| `dark`), `simple`, `width`/`height`, `title` |
+| `LogoHorizontalOnLight`, `LogoIconSimpleOnDark`, … | All 12 variants as named components, plus `logoComponents` and `logoMeta` |
+| `colors`, `colorTokens`, `cssVariables` | Brand colors (from `colors/palette.json`) |
+| `fonts`, `googleFontsHref` | Brand typefaces and a Google Fonts stylesheet URL |
+
+Sizing: pass only `height` or only `width` and the other follows the artwork's proportions. Accessibility: each logo is announced as "Ground Floor Industries"; pass `title=""` when it sits next to visible company-name text.
+
+The raw files are exported too, e.g. `@groundfloorindustries/logopack/logos/svg/gfi-icon-for-light-bg.svg`.
+
+### Working on the library
+
+```bash
+npm install              # installs tools and builds dist/
+npm run storybook        # live component catalog at http://localhost:6006
+npm test                 # component tests
+npm run typecheck
+npm run build            # regenerate from logos/svg + build dist/
+npm run build-storybook  # static Storybook in storybook-static/
+```
+
+If you change a file in `logos/svg` or `colors/palette.json`, run `npm run generate` (or `npm run build`) and commit the updated `src/generated/` files.
 
 ## Pulling the logos into other projects
 

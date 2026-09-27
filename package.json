@@ -1,0 +1,67 @@
+{
+  "name": "@groundfloorindustries/logopack",
+  "version": "1.0.0",
+  "description": "Ground Floor Industries logos, brand colors, and React components.",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "John Lyon <johnlyon@groundfloorindustries.com>",
+  "homepage": "https://github.com/JohnLyon-GroundFloorIndustries/LogoPack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnLyon-GroundFloorIndustries/LogoPack.git"
+  },
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./palette.css": "./colors/palette.css",
+    "./palette.json": "./colors/palette.json",
+    "./logos/*": "./logos/*",
+    "./favicon/*": "./favicon/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "logos",
+    "colors",
+    "favicon"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "build": "npm run generate && tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o storybook-static",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.6.0",
+    "@storybook/react-vite": "^10.6.0",
+    "@testing-library/react": "^16.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "storybook": "^10.6.0",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

@@ -1,0 +1,63 @@
+# Publishes the brand site to GitHub Pages on every push to main:
+#   https://johnlyon-groundfloorindustries.github.io/LogoPack/            -> asset preview (index.html)
+#   https://johnlyon-groundfloorindustries.github.io/LogoPack/storybook/  -> Storybook
+# One-time setup: repo Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+name: Publish Storybook
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # also allow a manual run from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies (also builds the library)
+        run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Build Storybook
+        run: npm run build-storybook
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r logos colors favicon _site/
+          cp -r storybook-static _site/storybook
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

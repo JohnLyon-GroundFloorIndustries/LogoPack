@@ -45,6 +45,7 @@ LogoPack/
 │   └── stories/       # Storybook stories
 ├── scripts/generate.mjs  # Regenerates src/generated from the vector masters
 ├── .storybook/        # Storybook configuration
+├── .github/workflows/ # Publishes Storybook + the preview page to GitHub Pages on every push
 ├── package.json       # npm package: @groundfloorindustries/logopack
 └── index.html         # Visual preview of everything (open in a browser)
 ```
@@ -85,6 +86,8 @@ The lettering has been converted to outlines, so the logo files don't need any f
 \* Tints derived from the six core brand colors, used inside the logo and for readable contrast on dark backgrounds.
 
 ## React component library
+
+**Live catalog:** [johnlyon-groundfloorindustries.github.io/LogoPack/storybook](https://johnlyon-groundfloorindustries.github.io/LogoPack/storybook/), republished automatically on every push to `main` (see `.github/workflows/pages.yml`). The asset preview page is at [johnlyon-groundfloorindustries.github.io/LogoPack](https://johnlyon-groundfloorindustries.github.io/LogoPack/).
 
 The repo is also an npm package with React components for every logo, plus the brand colors and fonts as tokens. The components are generated from `logos/svg`, so they always match the SVG, PDF, and PNG files.
 

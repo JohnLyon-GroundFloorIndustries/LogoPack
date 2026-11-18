@@ -2,6 +2,8 @@
 
 The official logo files for **Ground Floor Industries**, in one place so they can be pulled into any project, document, website, or print job.
 
+**Live preview:** https://johnlyon-groundfloorindustries.github.io/LogoPack/ shows every logo, favicon and color on one page.
+
 ![Stacked logo](logos/png/small/gfi-stacked-for-light-bg-512w.png)
 
 All logos are **vector** masters (SVG and PDF), which scale to any size with no loss in quality: business cards, signs, vehicle wraps, embroidery. The PNGs are exported from those masters.
@@ -87,7 +89,9 @@ The lettering has been converted to outlines, so the logo files don't need any f
 
 ## React component library
 
-**Live catalog:** [johnlyon-groundfloorindustries.github.io/LogoPack/storybook](https://johnlyon-groundfloorindustries.github.io/LogoPack/storybook/), republished automatically on every push to `main` (see `.github/workflows/pages.yml`). The asset preview page is at [johnlyon-groundfloorindustries.github.io/LogoPack](https://johnlyon-groundfloorindustries.github.io/LogoPack/).
+**Asset preview page:** [johnlyon-groundfloorindustries.github.io/LogoPack](https://johnlyon-groundfloorindustries.github.io/LogoPack/).
+
+**Storybook catalog:** `.github/workflows/pages.yml` builds Storybook on every push to `main` and publishes it to `https://johnlyon-groundfloorindustries.github.io/LogoPack/storybook/`. That address works only when **Settings → Pages → Build and deployment → Source** is set to **GitHub Actions**. The source is currently **Deploy from a branch**, so the branch deployment replaces the workflow's and the Storybook address returns 404. Until the setting is changed, run `npm run storybook` to view the catalog locally.
 
 The repo is also an npm package with React components for every logo, plus the brand colors and fonts as tokens. The components are generated from `logos/svg`, so they always match the SVG, PDF, and PNG files.
 
